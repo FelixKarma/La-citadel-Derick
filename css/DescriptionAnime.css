@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+header{
+	background-color: #c10d1c;
+	border: 0px;
+	border-bottom: black 5px;
+	border-style: solid;
+}
+
+.animePresentation{
+	background-color: rgba(0, 0,255,0.6);
+	height: 640px;
+	position: relative;
+}
+
+.backgroundImage{
+	opacity: 60%;
+	width: 100%;
+	height: 640px;
+	object-fit: fill; 
+	position: absolute;
+}
+.cover{
+	
+	position: relative;
+	top: 30%;
+	left: 10%;
+	
+}
+.animeTitle,
+.animeDescription{
+	position: relative;
+	left: 25%;
+	bottom:20%;
+	max-width: 60%;
+
+}
+ul,
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+
