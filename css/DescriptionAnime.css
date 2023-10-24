@@ -8,24 +8,27 @@ header{
 }
 
 .animePresentation{
-	background-color: rgba(0, 0,255,0.6);
+	background-color: rgba(100, 119,165,0.6);
 	height: 640px;
-	position: relative;
+
 }
 
 .backgroundImage{
 	opacity: 60%;
 	width: 100%;
 	height: 640px;
-	object-fit: fill; 
+	object-fit: cover; 
 	position: absolute;
+	background-color: rgb(130, 158, 190,0.5);
+
 }
 .cover{
 	
-	position: relative;
+	 position: relative;
 	top: 30%;
 	left: 10%;
-	
+	display: flex;
+	align-items: center;
 }
 .animeTitle,
 .animeDescription{
@@ -33,12 +36,57 @@ header{
 	left: 25%;
 	bottom:20%;
 	max-width: 60%;
+	color: white;
 
 }
 ul,
+section,
 body{
 	margin: 0px;
 	padding: 0px;
+	display: flex;
+	flex-flow: column;
 
+}
+
+.episodeList{
+	background-color: #182457;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-left: 3em;
+}
+.episodeListText{
+	margin: 0px;
+	margin-top: 2%;
+	color: white;
+	max-width: 150px;
+	padding: 10px;
+}
+
+.episodeListImage{
+	top: 30%;
+	left: 10%;
+	width: 13%;
+	padding: 10px;
+
+}
+
+.episodListSection{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 30px;
+	align-items: center;
+}
+
+.Button{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	height: 90px;
+	width: 90px;
+	
 }
 
