@@ -1,5 +1,6 @@
 @charset "UTF-8";
-
+*{font: 1em/1.618 Inter, sans-serif;
+}S
 header{
 	background-color: #c10d1c;
 	border: 0px;
@@ -9,75 +10,166 @@ header{
 
 .animePresentation{
 	background-color: rgba(100, 119,165,0.6);
-	height: 640px;
-
-}
-
-.backgroundImage{
-	opacity: 60%;
-	width: 100%;
-	height: 640px;
-	object-fit: cover; 
-	position: absolute;
-	background-color: rgb(130, 158, 190,0.5);
-
-}
-.cover{
-	
-	 position: relative;
-	top: 30%;
-	left: 10%;
-	display: flex;
-	align-items: center;
-}
-.animeTitle,
-.animeDescription{
-	position: relative;
-	left: 25%;
-	bottom:20%;
-	max-width: 60%;
-	color: white;
-
-}
-ul,
-section,
-body{
-	margin: 0px;
-	padding: 0px;
+	height: auto;
 	display: flex;
 	flex-flow: column;
 
 }
+.animeCharacteristics{
+	display: flex;
+	flex-flow: row;
+	position: relative;
+	align-items: center;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	backdrop-filter: blur(20px);
+	border: 2px solid hsl(357, 38%, 89%);
+	background-color: hsl(0, 0%, 0% ,0.3);
+	border-radius: 15px;
+	margin-top: 5%;
+}
+.rating img{
+	transform: translateY(25%);
+}
+.rating{
+	transform: translateY(-9%);
+}
+.rating,
+.release,
+.numberOfSeasons,
+.genres{
+ width: 25%;
+ color: white;
+ font-family: 'Inter', sans-serif;
+ font-size: 1.2vw;
+ border: 0px;
+ margin: 0;
+ padding-top: 1% ;
+ padding-bottom: 1%;
+ padding-left: 2%;
+ filter: drop-shadow( 0px 0px 1px #edd7d8);
+ 
+}
+.animePresentationContent{
+	display: flex;
+	flex-flow: row;
+	padding-top: 3vw;
+	padding-left: 5%;
+	padding-right: 5%;
+	backdrop-filter: blur(20px);
+	background-color: hsl(0, 0%, 0% ,0.3);
+	border: 2px solid #edd7d8;
+	border-radius: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	filter: drop-shadow( 0px 0px 1px #edd7d8);
+	height: 28vw;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.animePresentationText{
+	width: 90%;
+}
+.backgroundImage{
+	opacity: 80%;
+	width: 100%;
+	height: 180%;
+	object-fit: fill; 
+	position: absolute;
+	background-color:#182457;
+	filter: brightness(60%);
 
+}
+.cover{
+	padding-right: 5%;
+	position: relative;
+	top: 10%;
+	width: 20%;
+	height: fit-content;
+	padding-bottom: 5%;
+}
+.animeTitle{
+	font-size: 2vw;
+}
+.animeDescription{
+	font-size: 1.2vw;
+}
+.animeTitle,
+.animeDescription,
+.mangaka{
+	position: relative;
+	width: 100%;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	transform: translateX(2%);
+}
+ul,
+section{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-flow: column;
+	overflow-x: hidden;
+}
+
+.videoPlayerSection{
+	height:0vw ;
+	position: relative;
+	backdrop-filter: blur(20px);
+	background-color: hsl(0, 0%, 0% ,0.3);
+	border: 0px solid #edd7d8;
+	border-radius: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+.videoPlayer{
+	transform: translateY(5%);
+    height: 0%;	
+
+	padding-left:6vw;
+	padding-right: 6vw;
+}
+
+.animeProposal,
 .episodeList{
 	background-color: #182457;
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	padding-left: 3em;
+	border: 0px;
+	border-bottom: 4px #5d3267 ;
+	border-style: solid;
+	font-family: 'Inter', sans-serif;
 }
 .episodeListText{
 	margin: 0px;
 	margin-top: 2%;
 	color: white;
-	max-width: 150px;
+	max-width: 50%;
 	padding: 10px;
+	font-size: 2vw;
+	filter: drop-shadow( 0px 0px 1px #edd7d8);
+	
 }
 
 .episodeListImage{
 	top: 30%;
 	left: 10%;
-	width: 13%;
+	height: 290px;
 	padding: 10px;
-
+	width: 223px;
+	display: flex;
+	
 }
-
+.animeProposalCar,
 .episodListSection{
-	position: relative;
+	max-width: 95%;
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 30px;
-	align-items: center;
+	
 }
 
 .Button{
@@ -87,6 +179,53 @@ body{
 	border: 0px;
 	height: 90px;
 	width: 90px;
-	
+	filter: drop-shadow( 0px 0px 1px #404040);
 }
+body{
+	margin: 0px;
+	overflow-x: hidden;
+}
+.slick-track{
+	max-width: 100vw;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+}
+
+.slick-slide{
+	height: 290px;
+	padding: 10px;
+	width: 223px;
+	list-style-type: none;
+	text-decoration: none;
+	filter: drop-shadow( 0px 0px 1px #edd7d8);
+}
+
+.slick-list{
+	width:100%;
+	height: 400px;
+	overflow-x: hidden;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.slick-initialized{
+	display: flex;
+	align-items: center;
+}
+
+.episodNbrP {
+	margin: 0%;
+	color: white;
+	transform: translate(25% ,-350%);
+	font-size: 1.2vw;
+	visibility: visible;
+
+}
+
+.episodeListImage:hover{
+	filter: brightness(20%);
+}
+
 
