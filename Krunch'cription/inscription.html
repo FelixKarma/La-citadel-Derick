@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <!-- <link rel="stylesheet" href="inscription-style.css"> -->
+    <link rel="stylesheet" href="inscription-style2.css">
+    <link rel="stylesheet" href="est_bail/style.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="inline">
+
+            <div class="card">
+                <form id="inscription" action="" method="get">
+                    
+                    <img src="img_inscri_log/logo-officiel.png" alt="" width="150px">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required id="username" class="inputput">
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required class="inputput">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required class="inputput">
+                        <label>Password</label>
+                    </div>
+                    <div class="ingat">
+                        <label><input type="checkbox" required>
+                            J'accèpte les CGU</label>
+                    </div>
+                    <span class="button_top">
+                    <input type="button" id="bouton" value="Suivant">
+                    </span>
+                    <div class="login-register">
+                        <p>Déja enregistré? <a href="login.html" class="login-link"> Login </a></p>
+                    </div>
+                </div>
+ 
+                <div id="card2">
+                <div class="container">
+                    <h1>Qui es-tu ?</h1>
+                    <h2>Choisis parmi les 3 images en dessous ( ! un texte apparaît au survol de ces dernières)</h2>
+                    <div id="labels">
+
+                        <label for="image-radio">
+                            <input type="radio" id="image-radio" name="image-radio" required>
+                            <img src="img_inscri_log/KRUNCH-LUFFY.png" alt="Image" width="150px">
+                        
+                            <div class="description"><p>Monkey D.Krunchy </p><br>Explorez des mondes exaltants avec des animés d'aventure qui vous emmèneront vers des destinées extraordinaires et des défis palpitants.</div>
+                        </label>
+
+                        <label for="image-radio2">
+                            <input type="radio" id="image-radio2" name="image-radio" required>
+                            <img src="img_inscri_log/KRUNCH-POWER.png" alt="Image" width="150px">
+                        
+                            <div class="description"><p>Krunch Power</p> <br>Plongez dans l'obscurité avec des animés d'horreur captivants, où le frisson et l'épouvante vous attendent à chaque coin.</div>
+                        </label>
+
+                        <label for="image-radio3">
+                            <input type="radio" id="image-radio3" name="image-radio" required>
+                            <img src="img_inscri_log/KRUNCHIELD  21.png" alt="Image" width="150px">
+                            <div class="description"><p>Krunchield 21</p><br>Vivez la passion de la compétition avec des animés de sport, où l'effort, la détermination et la victoire se rejoignent.</div>
+                        </label>
+                    </div>
+                    <button type="submit" id="submit">
+                        <span class="button_top"> Valider
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </form>
+        </section>
+
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="inscription-script.js"></script>
+</body>
+
+</html>
