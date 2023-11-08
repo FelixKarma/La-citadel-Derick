@@ -1,6 +1,6 @@
 const header = document.getElementsByClassName("header");
 
-header[0].innerHTML = `        <img class="logo" src="/navbar/logo.png" alt="">
+header[0].innerHTML = `        <img class="logo" src="../navbar/logo.png" alt="">
 <input type="checkbox" id="check">
 
        
