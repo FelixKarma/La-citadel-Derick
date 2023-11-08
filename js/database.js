@@ -132,3 +132,20 @@ let onePunch = new Anime(
     "https://fr.web.img6.acsta.net/pictures/17/02/27/17/41/046707.jpg",
     ["Action" , "Humour", "SuperHero"]
     )
+
+
+let goblinSlayer = new Anime(
+    "Goblin Slayer",
+    "15 septembre 2017",
+    "À la frontière, un membre de la guilde a accompli une prouesse comme peu en sont capables : il est devenu chevalier de rang d’argent rien qu’en chassant les gobelins. La Prêtresse, une aventurière débutante, vient à peine de se lancer dans sa première équipée qu’elle est déjà confrontée à un danger mortel. Un homme vient à sa rescousse. On le nomme le Crève-gobelins. Il extermine les gobelins par tous les moyens, sans faire dans la dentelle. Il s’entoure de la Prêtresse, qu’il aime à contrarier, d’une membre de la guide toujours affable et de son amie d’enfance, la Vachère. Tout à coup, une elfe qui a entendu des rumeurs sur le personnage se présente à eux avec une requête… C’est l’histoire d’un homme qui ne tue que les gobelins, un homme qui désire être un aventurier.",
+    "4.8",
+    "Kumo Kagyū",
+    1,
+    [],
+    "https://m.media-amazon.com/images/S/pv-target-images/a0ea30194605819f4b90d711ec5755e05e6d7bc05ddeab9f275007cde0ce7c0f.jpg",
+    "https://fr.web.img2.acsta.net/pictures/19/09/18/15/38/4134067.jpg",
+    ["Action" , "Aventure" , "Fantastique"]
+)
+    
+
+let animeArray =[jujutsuKaisen, demonSlayer ,jojo ,onePunch, goblinSlayer]
