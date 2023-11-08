@@ -13,7 +13,7 @@ header{
 	height: auto;
 	display: flex;
 	flex-flow: column;
-
+	overflow: hidden;
 }
 .animeCharacteristics{
 	display: flex;
@@ -28,6 +28,7 @@ header{
 	background-color: hsl(0, 0%, 0% ,0.3);
 	border-radius: 15px;
 	margin-top: 5%;
+	padding-left: 3.5%;
 }
 .rating img{
 	transform: translateY(25%);
@@ -35,10 +36,21 @@ header{
 .rating{
 	transform: translateY(-9%);
 }
-.rating,
+.rating{
+	width: 15%;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	font-size: 1.2vw;
+	border: 0px;
+	margin: 0;
+	padding-top: 1% ;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	filter: drop-shadow( 0px 0px 1px #edd7d8);
+}
 .release,
 .numberOfSeasons,
-.genres{
+#genres{
  width: 25%;
  color: white;
  font-family: 'Inter', sans-serif;
@@ -81,12 +93,23 @@ header{
 	filter: brightness(60%);
 
 }
+.backgroundImage2{
+	background-image: url(../image/bgif.gif);
+min-height: 100vh;
+background-image: linear-gradient(to left, rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.729)),url(https://img.wattpad.com/e86fcc3e7e0a97a8664da09305553ac78926ecb8/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f774f716a596a316a6542484b2d513d3d2d313237343635373730342e313731623030393938623434663936383330303433323031333932382e676966);
+background-size: cover;
+background-position: center;
+background-color: #182457;
+backdrop-filter: blur(10px) ;
+border-top: black solid 5px;
+}
+
 .cover{
 	padding-right: 5%;
 	position: relative;
 	top: 10%;
-	width: 20%;
-	height: fit-content;
+	height: 70%;
+
 	padding-bottom: 5%;
 }
 .animeTitle{
@@ -134,15 +157,15 @@ section{
 
 .animeProposal,
 .episodeList{
-	background-color: #182457;
+	
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	padding-left: 3em;
 	border: 0px;
-	border-bottom: 4px #5d3267 ;
 	border-style: solid;
 	font-family: 'Inter', sans-serif;
+
 }
 .episodeListText{
 	margin: 0px;
