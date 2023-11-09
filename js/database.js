@@ -1,4 +1,3 @@
-
 class Account {
     constructor(username, password, email, profilePic) {
         this.username = username;
@@ -13,7 +12,7 @@ class season {
         this.episodeList = episodeList
     }
 }
-
+ 
 class Anime {
     constructor(title, releaseDate, description, rating, autor, numberOfSeason, seasons, backgroundImage, cover, genre) {
         this.title = title;
@@ -29,7 +28,7 @@ class Anime {
         this.season = season
     }
 }
-
+ 
 let jujutsuKaisenSeason1 = new season(37,
     ['<iframe class="videoPlayer" src="https://www.youtube.com/embed/cqTN1AQ09Yg?si=sDCADIQ8qEANCOXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
         '<iframe class="videoPlayer" src="https://www.youtube.com/embed/SyimUCBIo6c?si=PwwQtQ7Xt-dRU_Sb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
@@ -69,20 +68,20 @@ let jujutsuKaisenSeason1 = new season(37,
         '<iframe class="videoPlayer" src="https://www.youtube.com/embed/SyimUCBIo6c?si=PwwQtQ7Xt-dRU_Sb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ]
 )
-
+ 
 let demonSlayerSeason1 = new season(5,
     []
     )
-
+ 
 let jojoSeason1 = new season(6,
     []
-    
+   
     )
-
+ 
 let onePunchSeason1 = new season(12,
     []
     )
-
+ 
 let goblinSlayerSeason1 = new season
 let jujutsuKaisen = new Anime('Jujutsu Kaisen',
     '28 avril 2017',
@@ -95,7 +94,7 @@ let jujutsuKaisen = new Anime('Jujutsu Kaisen',
     'https://fr.web.img3.acsta.net/pictures/20/09/14/10/31/4875617.jpg',
     ['Action', 'Surnaturel', 'Shonen']
 )
-
+ 
 let demonSlayer = new Anime(
     "Demon Slayer",
     "06 avril 2019",
@@ -108,7 +107,7 @@ let demonSlayer = new Anime(
     "https://assets.bubblebd.com/img/vuedgo04d6/9e10u1jczt.jpg",
     ["Action " , "Surnaturel ", "Shonen "]
 )
-
+ 
 let jojo = new Anime(
     "Jojo's Bizarre Adventure",
     "6 octobre 2012",
@@ -121,7 +120,7 @@ let jojo = new Anime(
     "https://media.senscritique.com/media/000019211696/0/jojo_s_bizarre_adventure.jpg",
     ["Action" ,"Aventure" ,"Fantastique"]
     )
-
+ 
 let onePunch = new Anime(
     "One-Punch Man",
     "3 juin 2009",
@@ -134,8 +133,8 @@ let onePunch = new Anime(
     "https://fr.web.img6.acsta.net/pictures/17/02/27/17/41/046707.jpg",
     ["Action" , "Humour", "SuperHero"]
     )
-
-
+ 
+ 
 let goblinSlayer = new Anime(
     "Goblin Slayer",
     "15 septembre 2017",
@@ -148,6 +147,6 @@ let goblinSlayer = new Anime(
     "https://fr.web.img2.acsta.net/pictures/19/09/18/15/38/4134067.jpg",
     ["Action" , "Aventure" , "Fantastique"]
 )
-    
-
+   
+ 
 let animeArray =[jujutsuKaisen, demonSlayer ,jojo ,onePunch, goblinSlayer]
