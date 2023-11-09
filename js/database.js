@@ -82,6 +82,8 @@ let jojoSeason1 = new season(6,
 let onePunchSeason1 = new season(12,
     []
     )
+
+let goblinSlayerSeason1 = new season
 let jujutsuKaisen = new Anime('Jujutsu Kaisen',
     '28 avril 2017',
     "Souffrance, regrets, humiliations... les sentiments négatifs que ressentent les humains se transforment peu à peu en fléaux se cachant dans notre existence. Sévissant dans le monde entier, ils sont capables d'entraîner les gens dans de terribles malheurs et, parfois même, jusqu'à la mort. De plus, ces créatures ne peuvent être exorcisées que par un autre fléau. Lycéen ordinaire, Yuji Itadori est toutefois doté d'une force physique hors du commun. Un jour, pour sauver un ami attaqué par un fléau, il mange un des doigts du démon à deux visages, devenant à son tour un fléau.",
