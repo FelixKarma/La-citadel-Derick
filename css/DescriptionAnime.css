@@ -14,6 +14,7 @@ header{
 	display: flex;
 	flex-flow: column;
 	overflow: hidden;
+	border-top: solid black 5px;
 }
 .animeCharacteristics{
 	display: flex;
@@ -82,6 +83,7 @@ header{
 }
 .animePresentationText{
 	width: 90%;
+	
 }
 .backgroundImage{
 	opacity: 80%;
@@ -94,7 +96,7 @@ header{
 
 }
 .backgroundImage2{
-	background-image: url(../image/1000_F_522343219_y5DPkIx2p92xZ4K5RTERt9N5UYCut6CJ.jpg);
+
 min-height: 100vh;
 background-image: linear-gradient(to left, rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.729)),url(https://cdn1.epicgames.com/ue/product/Screenshot/1-1920x1080-ce7780663639340d916d58a9492d76c5.jpg?resize=1&w=1920);
 background-size: cover;
@@ -102,6 +104,7 @@ background-position: center;
 background-color: #182457;
 backdrop-filter: blur(10px) ;
 border-top: black solid 5px;
+border-bottom: black solid 5px
 }
 
 .cover{
@@ -126,6 +129,7 @@ border-top: black solid 5px;
 	color: white;
 	font-family: 'Inter', sans-serif;
 	transform: translateX(2%);
+	padding-bottom: 3%;
 }
 ul,
 section{
@@ -208,6 +212,10 @@ body{
 	margin: 0px;
 	overflow-x: hidden;
 }
+
+#coeur{
+	cursor: pointer;
+}
 .slick-track{
 	max-width: 100vw;
 	width: 100%;
@@ -215,8 +223,11 @@ body{
 	flex-direction: row;
 	height: 250px;
 }
-
+.slick-slide img{
+	border-radius: 30px;
+}
 .slick-slide{
+	
 	height: 290px;
 	padding: 10px;
 	width: 223px;
@@ -244,7 +255,7 @@ body{
 	transform: translate(25% ,-350%);
 	font-size: 1.2vw;
 	visibility: visible;
-
+	
 }
 
 .episodeListImage:hover{

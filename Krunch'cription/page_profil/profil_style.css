@@ -4,48 +4,109 @@
     box-sizing: border-box;
 }
 #hunter-card{
-    background-color: bisque;
-    max-width: 900px;
-    border: 1px solid black;
-    border-radius: 50px 50px 0px 0px;
 
-    margin: auto;
+    background-color: rgb(255, 255, 255);
+    max-width: 320px;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px auto;
+    
+    
 }
+/* #hunter-card-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+} */
 #section-img{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: auto;
-    border: 1px solid black;
-    border-radius: 50px 50px 0px 0px;
+    text-align: center;
+    margin: 5px auto ;
+    border-radius: 20px 20px 20px 20px;
     background-color: black;
-    max-width: 800px;
-    margin-top: 50px;
-    padding-top: 60px;
+    max-width: 300px;
+    padding-top: 30px;
+    
+}
+article{
+    background-image: url("/La-citadel-Derick/Krunch'cription/page_profil/img_profil/hunter.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 250px;
+}
+#section-img img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+
+}
+#secondpart{
+    margin: auto;
+    max-width: 300px;
+    max-height: 550px;
+    background-color: rgb(90, 195, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0px 0px 20px 20px;
+
 }
 
 #profil_username{
-    color: white;
+    color: black;
 }
 
-#section-input{
-    color: white;
+#section-localStorageName{
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: auto;
-    border: 1px solid black;
-
-    background-color: black;
-    max-width: 800px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    max-height: 550px;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 3rem;
 }
 
-input{
-    width: 50em;
+#section-description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;  
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+h1{
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.8em;
+}
+#section-description p{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-height: 550px;
 }
 
-#radio {
+main{
+    text-align: center;
 
 }

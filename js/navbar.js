@@ -8,8 +8,8 @@ header[0].innerHTML = `        <img class="logo" src="logo.png" alt="">
        
 <nav class="navbar">
 <a href="index.html">Accueil</a>
-<a href="#">Categorie </a>
-<a href="#">Categorie 3</a>
+<a href="">Categorie </a>
+<a href="/La-citadel-Derick/Krunch'cription/page_profil/page_profil.html">Categorie 3</a>
 <a href="contact/contact.html">Contactez nous</a>
 </nav>
 <button>

@@ -1,124 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,800&family=Paytone+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,800&display=swap');
-
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
+    font-family: 'poppins', sans-serif;
 
-section.contact {
-    padding: 40px 15%;
 }
 body {
     min-height: 100vh;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.729)),url(https://img.wattpad.com/e86fcc3e7e0a97a8664da09305553ac78926ecb8/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f774f716a596a316a6542484b2d513d3d2d313237343635373730342e313731623030393938623434663936383330303433323031333932382e676966);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(https://cdn1.epicgames.com/ue/product/Screenshot/1-1920x1080-ce7780663639340d916d58a9492d76c5.jpg?resize=1&w=1920);
     background-size: cover;
     background-position: center;
     background-color: #182457;
     backdrop-filter: blur(10px) ;
     
-    
 }
-.contact {
-    
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    align-items: center;
-    grid-gap: 6rem;
-}
-
-.contact-form h1 {
-    font-size: 80px;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 100px;
-}
-
-span {
-    color: orange;
-}
-
-.contact-form p {
-    color: rgba(128, 128, 128, 0.415);
-    letter-spacing: 1px;
-    line-height: 30px;
-    font-size: 1.1rem;
-    margin-bottom: 3.8rem;
-}
-
-.contact-form form {
+#footer {
     position: relative;
-}
-
-.contact-form form input,
-form textarea {
-    width: 100%;
-    padding: 20px;
-    border: none;
-    outline: none;
-    background: rgba(48, 47, 47, 0.662);
-    color: white;
-    font-size: 1.1rem;
-    margin-bottom: 0.7rem;
-    border-radius: 10px;
-}
-
-.contact-form textarea {
-    resize: none;
-    height: 200px;
-}
-
-.contact-form form .btn {
-    display: inline-block;
-    background: orange;
-    color: black;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    width: 225px;
-    transition: ease .20s;
-    cursor: pointer;
-}
-
-.contact-form form .btn:hover {
-    border: 2px solid orange;
-    color: white;
-    background: transparent;
-    transform: scale(1.1);
-}
-
-.contact-img img {
-    /* max-width: 100%; */
-    width: 360px;
-    height: 600px;
-    border-radius: 10px;
-}
-/* ///////////////////////// */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-
-}
-body {
-    min-height: 100vh;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.729)),url(https://img.wattpad.com/e86fcc3e7e0a97a8664da09305553ac78926ecb8/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f774f716a596a316a6542484b2d513d3d2d313237343635373730342e313731623030393938623434663936383330303433323031333932382e676966);
-    background-size: cover;
-    background-position: center;
-    background-color: #182457;
-    backdrop-filter: blur(10px) ;
-    
-}
-.header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -190,7 +87,7 @@ button {
    }
    
 
-.header::before {
+#footer::before {
     content: '';
     position: absolute;
     top: 0;
@@ -233,7 +130,7 @@ span{
     cursor: pointer;
     display: none;
 }
-// pour le responsive
+
 @media (max-width: 992px){
     .header{
         padding: 1.3rem 5%;
@@ -301,6 +198,32 @@ span{
     width: 10%;
 }
 
-.contact-form p {
-    visibility: hidden;
+/* oeoeoeoe */
+
+.logo-radio{
+    border: 2px solid rgba(255, 255, 255, 0.295);
+    border-radius: 50%;
+}
+
+.usrname{
+    color: rgba(255, 255, 255, 0.295);
+}
+#nav-profil{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+    
+}
+
+.up {
+    justify-content: end;
+    
 }

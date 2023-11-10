@@ -1,0 +1,119 @@
+
+
+h1 {
+
+    text-shadow: 2px 2px 15px rgba(50, 81, 89, 0.681);
+    text-rendering: geometricPrecision;
+    color: rgb(144, 28, 28);
+    letter-spacing: 8px;
+    font-weight: lighter;
+    font-size: xxx-large;
+
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    margin: 15px;
+    image-rendering: optimizeQuality;
+    transform: translateZ(0px);
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userimg {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+
+/* Wishlist */
+
+.wishlist_title {
+ width: 80%;
+ margin: auto;
+ background: #36365c76;
+ text-align: center;
+ height: 10%;
+ padding: 2.5% 0;
+ border: solid 0.5px rgba(92, 102, 121, 0.581);
+ border-radius: 15px 15px 0 0;
+}
+
+.whishcontainer {
+ width: 80%;
+ margin: auto;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549e9b77-4c90-4c7f-8d0e-772a4ba70576/deijurj-adfa3118-4bd6-4350-b9db-43d4d835536c.jpg/v1/fit/w_828,h_466,q_70,strp/mitch_murder___then_again_album_cover_by_arsenixc_deijurj-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM1MCIsInBhdGgiOiJcL2ZcLzU0OWU5Yjc3LTRjOTAtNGM3Zi04ZDBlLTc3MmE0YmE3MDU3NlwvZGVpanVyai1hZGZhMzExOC00YmQ2LTQzNTAtYjlkYi00M2Q0ZDgzNTUzNmMuanBnIiwid2lkdGgiOiI8PTI0MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.dyt4QmSJd8BOJcf2f4DPxhr0fOz9ZeyR0pVXE-L_j7Y);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ border-radius: 0 0 15px 15px;
+ text-align: center;
+ border: solid 0.5px rgba(92, 102, 121, 0.581);
+ margin-bottom: 20px;
+}
+
+.wishlist {
+    border: solid 1px #141e4b;
+    background: rgba(245, 237, 252, 0.271);
+    margin-bottom: 1%;
+    width: 20%;
+    height: 15%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+display: none;
+}
+
+.titleWish {
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+    
+}
+
+.cover {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    
+    background-image: url(https://cdn-icons-png.flaticon.com/512/32/32297.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px rgba(28, 36, 46, 0.536);
+    border-radius: 5px;
+
+}
+
+.cover_size {
+    width: 90%;
+    height: 20vh;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 2%;
+    font-weight: normal;
+    font-size: large;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: normal;
+}
+

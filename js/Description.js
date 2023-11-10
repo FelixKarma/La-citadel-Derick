@@ -1,32 +1,33 @@
-//the first part simulate
-
+let url = document.location.href.split("=");
+let cardCliked = parseInt(url[1])
+console.log(cardCliked);
 let numberOfEpisode = jujutsuKaisenSeason1.episodeNbr;
 let episodListSection = document.getElementsByClassName("episodListSection");
 let divContent="";
 for (let i = 0; i < numberOfEpisode; i++) {
-let y = i+1
+    let y = i+1
  
-    divContent += "<div class='EpCarDiv'  id='slide" + i + "' onclick='buttonPressed("+i+")' ><img onclick='increaseHeight()' class='episodeListImage' src='" + jujutsuKaisen.cover + "' alt=''> <p class='episodNbrP'> Episode "+ y+" </p></div>"
+    divContent += "<div class='EpCarDiv'  id='slide" + i + "' onclick='buttonPressed("+i+")' ><img onclick='increaseHeight()' class='episodeListImage' src='" + animeArray[cardCliked].cover + "' alt=''> <p class='episodNbrP'> Episode "+ y+" </p></div>"
 
 }
 episodListSection[0].innerHTML = divContent;
 
 // attribute every elements to a var
 let mangakaName = "";
-mangakaName = jojo.autor;
+mangakaName = animeArray[cardCliked].autor;
 let seasonNbr = "";
-seasonNbr = jojo.numberOfSeason;
+seasonNbr = animeArray[cardCliked].numberOfSeason;
 let release = "";
-release = jojo.releaseDate;
+release = animeArray[cardCliked].releaseDate;
 let animDescription = "";
-animDescription = goblinSlayer.description;
+animDescription = animeArray[cardCliked].description;
 let animTitle = "";
-animTitle = jojo.title;
+animTitle = animeArray[cardCliked].title;
 let animeCover = "";
-animeCover= goblinSlayer.cover;
+animeCover= animeArray[cardCliked].cover;
 let animeBackground = "";
-animeBackground = goblinSlayer.backgroundImage;
-let animeRating = "<img src='../image/st.png' height =50 > :" + jojo.rating
+animeBackground = animeArray[cardCliked].backgroundImage;
+let animeRating = "<img src='../image/st.png' height =50 > :" + animeArray[cardCliked].rating
 
 
 //get all element with their class name
@@ -54,7 +55,7 @@ seasonsNumber[0].innerHTML = "Nombre de saisons : " + seasonNbr;
 
 let gender ="";
 
-for (let genre of jojo.genre) {
+for (let genre of animeArray[cardCliked].genre) {
 
     gender += genre + " "
 }
@@ -92,3 +93,6 @@ function increaseHeight(){
 }
   
 
+function addWishList() {
+    localStorage.setItem("animesWish", true);
+}

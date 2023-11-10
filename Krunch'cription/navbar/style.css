@@ -7,7 +7,7 @@
 }
 body {
     min-height: 100vh;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.729)),url(https://cdn1.epicgames.com/ue/product/Screenshot/1-1920x1080-ce7780663639340d916d58a9492d76c5.jpg?resize=1&w=1920);
+
     background-size: cover;
     background-position: center;
     background-color: #182457;
@@ -15,7 +15,7 @@ body {
     
 }
 .header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -38,7 +38,7 @@ button {
     border: none;
    }
    
-   .button:after {
+   button:after {
     content: " ";
     width: 0%;
     height: 100%;
@@ -213,4 +213,3 @@ span{
     flex-direction: column;
     align-items: center;
 }
-
